@@ -1,1 +1,5 @@
-Compiled Interpreter for Various Systems
+# Compiled Interpreter for Various Systems
+
+· Debian
+· FreeBSD
+· Raspberry Pico
