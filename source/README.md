@@ -6,6 +6,6 @@ chmod 750 hello.leo
 
 or they can be run directly
 
-fortemb hello.leo
+foremb hello.leo
 
 * hello.leo: Hello world script.
