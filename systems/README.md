@@ -1,4 +1,4 @@
-# Compiled Interpreter for Various Systems
+# Compiled Interpreter for Different Systems
 
 * Debian
 
