@@ -4,7 +4,7 @@
 
 chmod 750 hello.leo
 
-or they can be run directly
+or they can be run directly:
 
 foremb hello.leo
 
