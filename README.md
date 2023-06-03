@@ -67,103 +67,120 @@ Interpreter for real-time embeded systems.
 
 ## Core
 
-call
-clear
-exit
-nop
-restart
-;
-end
+| Word    | Description                    |
+| ------- | ------------------------------ |
+| call    | PS ( c1 -- ) RS ( -- c1 )      |
+| clear   | ( cn ... c1 -- )               |
+| exit    | Terminates execution.          |
+| nop     | No operation.                  |
+| restart | Restart script.                |
+| ; end   | Closes control flow structure. |
 
 ## Data Stack
 
-drop
-dup
-emit
-nip
-over
-pick
-roll-
-roll
-rot
-swap
+| Word  | Description               |
+| ----- | ------------------------- |
+| drop  | |
+| dup   | |
+| emit  | |
+| nip   | |
+| over  | |
+| pick  | |
+| roll- | |
+| roll  | |
+| rot   | |
+| swap  | |
 
 ## Dictionary
 
-:
-create
-does
-hold
-omit
-return
-wait
+| Word   | Description               |
+| ------ | ------------------------- |
+| :      | |
+| create | |
+| does   | |
+| hold   | |
+| omit   | |
+| return | |
+| wait   | |
 
 ## Floating Point Stack
 
-rdrop
-rdup
-rnip
-rover
-rpick
-rroll-
-rroll
-rrot
-rswap
-trunc
+| Word   | Description               |
+| ------ | ------------------------- |
+| rdrop  | |
+| rdup   | |
+| rnip   | |
+| rover  | |
+| rpick  | |
+| rroll- | |
+| rroll  | |
+| rrot   | |
+| rswap  | |
+| trunc  | |
 
 ## Logical Operations
 
-and
-not
-or
-<<
->>
-xor
+| Word | Description               |
+| ---- | ------------------------- |
+| and  | |
+| not  | |
+| or   | |
+| <<   | |
+| >>   | |
+| xor  | |
 
 ## Memory Management
 
-@
-l@u
-l@r
-l!u
-l!r
-r@
-r!
-!
-c@
-c!
-$@
-$@c
-$!
-$!c
+| Word | Description               |
+| ---- | ------------------------- |
+| @    | |
+| l@u  | |
+| l@r  | |
+| l!u  | |
+| l!r  | |
+| r@   | |
+| r!   | |
+| !    | |
+| c@   | |
+| c!   | |
+| $@   | |
+| $@c  | |
+| $!   | |
+| $!c  | |
 
 ## Pointer Stack
 
-allocate
-atoms
-free
-pdrop
-pdup
-pnip
-pover
-prot
-pswap
-$allocate
-$free
+| Word      | Description               |
+| --------- | ------------------------- |
+| allocate  | |
+| atoms     | |
+| free      | |
+| pdrop     | |
+| pdup      | |
+| pnip      | |
+| pover     | |
+| prot      | |
+| pswap     | |
+| $allocate | |
+| $free     | |
 
 ## Control Flow
 
-elif
-else
-if
-include
-jmpnz
-jmpz
+| Word    | Description               |
+| ------- | ------------------------- |
+| elif    | |
+| else    | |
+| if      | |
+| include | |
+| jmpnz   | |
+| jmpz    | |
 
 ## Loops
 
-break
-loop
-retry
-skip
-while
+| Word  | Description               |
+| ----- | ------------------------- |
+| break | |
+| loop  | |
+| retry | |
+| skip  | |
+| while | |
