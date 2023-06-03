@@ -7,11 +7,11 @@ Interpreter for real-time embeded systems.
 | ---- | --------------------------- |
 | +    | DS ( c2 c1 -- c3 ) Addition |
 | --   | DS ( c1 -- c2 ) Decrement   |
-/
-++
-%
-*
--
+| /    | |
+| ++   | |
+| %    | |
+| *    | |
+| -    | |
 
 ## Arithmetic Operations for Reals
 
