@@ -93,30 +93,30 @@ Interpreter for real-time embeded systems.
 
 ## Dictionary
 
-| Word   | Description               |
-| ------ | ------------------------- |
-| :      | |
-| create | |
-| does   | |
-| hold   | |
-| omit   | |
-| return | |
-| wait   | |
+| Word   | Description     |
+| ------ | --------------- |
+| :      | Makes new word. |
+| create | PS ( c1 -- )    |
+| does   | IS ( c1 -- )    |
+| hold   | DS ( c1 -- )    |
+| omit   | PS ( c1 -- c1 ) |
+| return | RS ( c1 -- )    |
+| wait   | DS ( c1 -- )    |
 
 ## Floating Point Stack
 
-| Word   | Description                                      |
-| ------ | ------------------------------------------------ |
-| rdrop  | FS ( c1 -- )                                     |
-| rdup   | FS ( c1 -- c1 c1 )                               |
-| rnip   | FS ( c2 c1 -- c1 )                               |
-| rover  | FS ( c2 c1 -- c2 c1 c2 )                         |
-| rpick  | FS ( cn ... c2 c1 -- cn ... c2 cn )              |
-| rroll- | FS ( cn cn-1 ... c3 c2 c1 -- cn c2 cn-1 ... c3 ) |
-| rroll  | FS ( cn cn-1 ... c2 c1 -- cn-1 ... c2 cn )       |
-| rrot   | FS ( c3 c2 c1 -- c2 c1 c3 )                      |
-| rswap  | FS ( c2 c1 -- c1 c2 )                            |
-| trunc  | FS ( c1 -- ) DS ( -- c1 )                        |
+| Word   | Description                                                |
+| ------ | ---------------------------------------------------------- |
+| rdrop  | FS ( c1 -- )                                               |
+| rdup   | FS ( c1 -- c1 c1 )                                         |
+| rnip   | FS ( c2 c1 -- c1 )                                         |
+| rover  | FS ( c2 c1 -- c2 c1 c2 )                                   |
+| rpick  | FS ( cn ... c2 c1 -- cn ... c2 cn )                        |
+| rroll- | FS ( cn cn-1 ... c2 c1 -- cn c1 cn-1 ... c2 ) DS ( c1 -- ) |
+| rroll  | FS ( cn cn-1 ... c2 c1 -- cn-1 ... c2 c1 cn ) DS ( c1 -- ) |
+| rrot   | FS ( c3 c2 c1 -- c2 c1 c3 )                                |
+| rswap  | FS ( c2 c1 -- c1 c2 )                                      |
+| trunc  | FS ( c1 -- ) DS ( -- c1 )                                  |
 
 ## Logical Operations
 
