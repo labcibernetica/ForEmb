@@ -71,9 +71,9 @@ Interpreter for real-time embeded systems.
 | ------- | ------------------------------ |
 | call    | PS ( c1 -- ) RS ( -- c1 )      |
 | clear   | ( cn ... c1 -- )               |
-| exit    | Terminates execution.          |
-| nop     | No operation.                  |
-| restart | Restart script.                |
+| exit    | ( cn ... c1 -- )               |
+| nop     | ( -- )                         |
+| restart | ( cn ... c1 -- )               |
 | ; end   | Closes control flow structure. |
 
 ## Data Stack
