@@ -47,19 +47,23 @@ Interpreter for real-time embeded systems.
 
 ## Comparison for Signed Integers
 
-s>
-s<
+| Word | Description                                         |
+| ---- | --------------------------------------------------- |
+| s>   | DS ( c2 c1 -- c3 ) c3 = 1 when c2 > c1, 0 otherwise |
+| s<   | DS ( c2 c1 -- c3 ) c3 = 1 when c2 < c1, 0 otherwise |
 
 ## Conversion
 
-r>s
-r>$
-s>r
-s>$
-$>s
-$>r
->r
->$
+| Word | Description               |
+| ---- | ------------------------- |
+| r>s  | FS ( c1 -- ) DS ( -- c1 ) |
+| r>$  | FS ( c1 -- ) PS ( -- c1 ) |
+| s>r  | DS ( c1 -- ) FS ( -- c1 ) |
+| s>$  | DS ( c1 -- ) PS ( -- c1 ) |
+| $>s  | PS ( c1 -- ) DS ( -- c1 ) |
+| $>r  | PS ( c1 -- ) FS ( -- c1 ) |
+| >r   | DS ( c1 -- ) FS ( -- c1 ) |
+| >$   | DS ( c1 -- ) PS ( -- c1 ) |
 
 ## Core
 
