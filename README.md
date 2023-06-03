@@ -3,15 +3,15 @@ Interpreter for real-time embeded systems.
 
 ## Arithmetic Operations for Integers/Symbols
 
-| Word | Description                 |
-| ---- | --------------------------- |
-| +    | DS ( c2 c1 -- c3 ) Addition |
-| --   | DS ( c1 -- c2 ) Decrement   |
-| /    | |
-| ++   | |
-| %    | |
-| *    | |
-| -    | |
+| Word | Description                   |
+| ---- | ----------------------------- |
+| +    | DS ( c2 c1 -- c3 ) c3 = c1+c2 |
+| --   | DS ( c1 -- c2 ) c2 = c1-1     |
+| /    | DS ( c2 c1 -- c3 ) c3 = c2/c1 |
+| ++   | DS ( c1 -- c2 ) c2 = c1+1     |
+| %    | DS ( c2 c1 -- c3 ) c3 = c2%c1 |
+| *    | DS ( c2 c1 -- c3 ) c3 = c1*c2 |
+| -    | DS ( c2 c1 -- c3 ) c3 = c2-c1 |
 
 ## Arithmetic Operations for Reals
 
