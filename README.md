@@ -3,7 +3,9 @@ Interpreter for real-time embeded systems.
 
 ## Arithmetic Operations for Integers/Symbols
 
-+
+### +
+ DS ( c2 c1 -- c3 ) Addition
+
 --
 /
 ++
