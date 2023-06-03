@@ -6,19 +6,21 @@ Interpreter for real-time embeded systems.
 | Word | Description                   |
 | ---- | ----------------------------- |
 | +    | DS ( c2 c1 -- c3 ) c3 = c1+c2 |
-| --   | DS ( c1 -- c2 ) c2 = c1-1     |
+| --   | DS ( c1 -- c2 )    c2 = c1-1  |
 | /    | DS ( c2 c1 -- c3 ) c3 = c2/c1 |
-| ++   | DS ( c1 -- c2 ) c2 = c1+1     |
+| ++   | DS ( c1 -- c2 )    c2 = c1+1  |
 | %    | DS ( c2 c1 -- c3 ) c3 = c2%c1 |
 | *    | DS ( c2 c1 -- c3 ) c3 = c1*c2 |
 | -    | DS ( c2 c1 -- c3 ) c3 = c2-c1 |
 
 ## Arithmetic Operations for Reals
 
-r+
-r/
-r*
-r-
+| Word | Description                   |
+| ---- | ----------------------------- |
+| r+   | FS ( c2 c1 -- c3 ) c3 = c1+c2 |
+| r/   | FS ( c2 c1 -- c3 ) c3 = c2/c1 |
+| r*   | FS ( c2 c1 -- c3 ) c3 = c1*c2 |
+| r-   | FS ( c2 c1 -- c3 ) c3 = c2-c1 |
 
 ## Arithmetic Operations for Signed Integers
 
