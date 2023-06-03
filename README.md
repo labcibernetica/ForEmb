@@ -24,20 +24,26 @@ Interpreter for real-time embeded systems.
 
 ## Arithmetic Operations for Signed Integers
 
-s/
-s%
+| Word | Description                   |
+| ---- | ----------------------------- |
+| s/   | DS ( c2 c1 -- c3 ) c3 = c2/c1 |
+| s%   | DS ( c2 c1 -- c3 ) c3 = c2%c1 |
 
 ## Comparison for Integers and Symbols
 
-=
->
-<
+| Word | Description                                         |
+| ---- | --------------------------------------------------- |
+| =    | DS ( c2 c1 -- c3 ) c3 = 1 when c2 = c1, 0 otherwise |
+| >    | DS ( c2 c1 -- c3 ) c3 = 1 when c2 > c1, 0 otherwise |
+| <    | DS ( c2 c1 -- c3 ) c3 = 1 when c2 < c1, 0 otherwise |
 
 ## Comparison for Reals
 
-r=
-r>
-r<
+| Word | Description                                                   |
+| ---- | ------------------------------------------------------------- |
+| r=   | FS ( c2 c1 -- ) DS ( -- c3 ) c3 = 1 when c2 = c1, 0 otherwise |
+| r>   | FS ( c2 c1 -- ) DS ( -- c3 ) c3 = 1 when c2 > c1, 0 otherwise |
+| r<   | FS ( c2 c1 -- ) DS ( -- c3 ) c3 = 1 when c2 < c1, 0 otherwise |
 
 ## Comparison for Signed Integers
 
