@@ -3,11 +3,10 @@ Interpreter for real-time embeded systems.
 
 ## Arithmetic Operations for Integers/Symbols
 
-| Word | Description |
-| ---- | ----------- |
+| Word | Description                 |
+| ---- | --------------------------- |
 | +    | DS ( c2 c1 -- c3 ) Addition |
-
---
+| --   | DS ( c1 -- c2 ) Decrement   |
 /
 ++
 %
