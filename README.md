@@ -126,7 +126,7 @@ Interpreter for real-time embeded systems.
 | not  | DS ( c1 -- c2 )    c2 = not c1    |
 | or   | DS ( c2 c1 -- c3 ) c3 = c1 or c2  |
 | <<   | DS ( c2 c1 -- c3 ) c3 = c2 << c1  |
-| >>   | DS ( c2 c1 -- c3 ) c3 = c2 >> c2  |
+| >>   | DS ( c2 c1 -- c3 ) c3 = c2 >> c1  |
 | xor  | DS ( c2 c1 -- c3 ) c3 = c1 xor c2 |
 
 ## Memory Management
@@ -168,7 +168,7 @@ Interpreter for real-time embeded systems.
 
 | Word         | Description             |
 | ------------ | ----------------------- |
-| if else elif | if - else - elif - end  |
+| if elif else | if {} elif {} else {}   |
 | include      | Inserts another script. |
 | jmpnz        | DS ( c1 -- )            |
 | jmpz         | DS ( c1 -- )            |
