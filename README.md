@@ -166,21 +166,19 @@ Interpreter for real-time embeded systems.
 
 ## Control Flow
 
-| Word    | Description               |
-| ------- | ------------------------- |
-| elif    | |
-| else    | |
-| if      | |
-| include | |
-| jmpnz   | |
-| jmpz    | |
+| Word         | Description             |
+| ------------ | ----------------------- |
+| if else elif | if - else - elif - end  |
+| include      | Inserts another script. |
+| jmpnz        | DS ( c1 -- )            |
+| jmpz         | DS ( c1 -- )            |
 
 ## Loops
 
-| Word  | Description               |
-| ----- | ------------------------- |
-| break | |
-| loop  | |
-| retry | |
-| skip  | |
-| while | |
+| Word  | Description          |
+| ----- | -------------------- |
+| break | Goes to loop end.    |
+| loop  | Start of the loop.   |
+| retry | Goes to loop start.  |
+| skip  | Goes to loop begin.  |
+| while | Test loop condition. |
