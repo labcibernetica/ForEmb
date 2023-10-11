@@ -150,19 +150,19 @@ Interpreter for real-time embeded systems.
 
 ## Pointer Stack
 
-| Word      | Description               |
-| --------- | ------------------------- |
-| allocate  | |
-| atoms     | |
-| free      | |
-| pdrop     | |
-| pdup      | |
-| pnip      | |
-| pover     | |
-| prot      | |
-| pswap     | |
-| $allocate | |
-| $free     | |
+| Word      | Description                  |
+| --------- | ---------------------------- |
+| allocate  | DS ( c2 c1 -- ) PS ( -- c1 ) |
+| atoms     | DS ( -- c1 ) PS ( c1 -- c1 ) |
+| free      | PS ( c1 -- )                 |
+| pdrop     | PS ( c1 -- )                 |
+| pdup      | PS ( c1 -- c1 c1 )           |
+| pnip      | PS ( c2 c1 -- c1 )           |
+| pover     | PS ( c2 c1 -- c2 c1 c2 )     |
+| prot      | PS ( c3 c2 c1 -- c2 c1 c3 )  |
+| pswap     | PS ( c2 c1 -- c1 c2 )        |
+| $allocate | DS ( c1 -- ) PS ( -- c1 )    |
+| $free     | PS ( c1 -- )                 |
 
 ## Control Flow
 
