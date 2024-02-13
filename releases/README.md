@@ -1,7 +1,7 @@
 # Interpreter Installer
 
-* Debian
+* Debian.
 
-* FreeBSD
+* FreeBSD.
 
-* Raspberry Pico
+* Raspberry Pico.
