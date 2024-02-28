@@ -3,7 +3,7 @@
 2 base
 "ASCII:   " $. $free
 '+' dup . '\n' emit
-"digitos: " $. $free
+"digits: " $. $free
 dup 0fh and . '\n' emit
-"zona:    " $. $free
+"zone:    " $. $free
 4 >> . '\n' emit
